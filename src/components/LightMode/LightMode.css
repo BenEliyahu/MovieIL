@@ -1,0 +1,225 @@
+/* Dark / Light Mode Scheme */
+.light {
+    background-color: #fff;
+    transition: background-color 0.2s linear;
+  }
+  
+  .light .header-user-list {
+    right: 0;
+    top: 55px;
+    position: absolute;
+  
+    background-color: #fff;
+  
+    border-radius: 8px;
+    transition: all 0.1s ease-in;
+    display: none;
+    color: #222;
+  }
+  .light .header-user-item {
+    font-size: 16px;
+    color: black;
+    border-top: 1px solid rgba(33, 37, 41, 0.15);
+    padding: 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #222;
+  }
+  
+  
+  .light .header.sticky {
+    background-color: white;
+  }
+  
+  .light .header-user-item a {
+    cursor: pointer;
+    color: black;
+  }
+  
+  .light ul.nav-menu li {
+    padding: 5px 10px;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+  }
+  
+  .light ul.nav-menu a {
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+  }
+  
+  .light .genres-list li a {
+    color: #333;
+  }
+  
+  .light .bb {
+  color: red;
+  background-color: red;
+  }
+.light .type{
+    color: black;
+}
+.light .cast-name{
+    color: black;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.light .recently{
+    color: black;
+}
+.light #btn .btn{
+    padding: 5px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+    background-color: red;
+  }
+  .light .simularTitle{
+    color: black;
+  }
+  .light #simularFooter{  
+    color: black;
+  }
+  .light .cast-title {
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+  }
+  .light .homepage {
+    color: black;
+    font-size: 16px;
+  }
+  .light .view_more-title{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+  }
+  .light .comment-title {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 20px;
+  }
+  .light .comment-control input {
+    flex: 1;
+    padding: 10px 16px;
+    height: 100%;
+    background-color: gray;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    outline: none;
+    color: black;
+    font-size: 16px;
+    max-width: 100%;
+    width: 100%;
+  }
+  .light .comment-control .send-icon {
+    height: 100%;
+    padding: 10px 12px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    background-color: transparent;
+    border-left: 1px solid black;
+    cursor: pointer;
+    background-color: black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .light .show-comment-items {
+    color: white;
+    display: flex;
+    align-items: flex-start;
+  }
+  .light .comment-action{
+    color: black;
+  }
+  .light .ovelay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .light .login-form {
+    position: absolute;
+    z-index: 2;
+    width: 400px;
+    max-width: calc(100% - 16px);
+    border-radius: 10px;
+    padding: 15px;
+    background-color: white;
+  }
+  
+  .light .login-form-title {
+    font-weight: 700;
+    font-size: 25px;
+    color: black;
+  }
+  .light .movie-name{
+    color: black;
+    margin: 20px 0;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  .light .movie-overview{
+    color: black;
+  }
+  .light .movie-release_date{
+    color: black;
+    margin: 20px 0;
+  }
+  .light .simularColumn-title{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  .light .simularColumn-name{
+    color: black;
+    width: calc(100% - 100px);
+    padding: 0 10px;
+    font-size: 14px;
+    line-height: 1.8;
+  }
+  .light .favorite-title {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 20px;
+  }
+  .light .watch-tv-title{
+    color: black;
+  }
+  .light .watch-tv-season-number{
+    color: black;
+  }
+  .light .watch-tv-name-esp{
+    color: black;
+  }
+  .light .watch-tv-overview{
+    color: black;
+  }
+  .light .watch-tv-air_date{
+    color: black;
+  }
+  .light .cast-character {
+    color: red;
+    font-size: 12px;
+  }
+.light .like-button{
+    color:#222;
+}
