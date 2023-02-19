@@ -7,8 +7,8 @@ Demo: https://movie-il.vercel.app/
 - Login with Google
 - Login with Facebook
 - Add movie to your favorite list
-- Delete movie to your favorite list
-- Write a comments
+- Delete movie on your favorite list
+- Write comments
 - Watch movies and tv shows
 - Search movies
 - Dark/Light mode
